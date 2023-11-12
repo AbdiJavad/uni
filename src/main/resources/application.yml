@@ -1,0 +1,16 @@
+
+server:
+  port: 8080
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/uni
+    driver-class-name: org.mysql.Driver
+  application:
+    name: uni
