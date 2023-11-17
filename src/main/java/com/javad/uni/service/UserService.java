@@ -4,28 +4,11 @@ import com.javad.uni.model.User;
 
 import java.util.List;
 
-public class UserService implements UserAction{
-    public UserService() {
-    }
+public interface UserService {
 
+    User save(User user);
+    User update(Long id, User user);
+    void delete(Long is);
+    List<User> users ();
 
-    @Override
-    public User save(User user) {
-        return null;
-    }
-
-    @Override
-    public User update(Long id, User user) {
-        return null;
-    }
-
-    @Override
-    public void delete(Long is) {
-
-    }
-
-    @Override
-    public List<User> users() {
-        return null;
-    }
 }
