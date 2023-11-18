@@ -21,7 +21,7 @@ public class UserController {
     private UserRepository userRepository;
 
     @GetMapping
-    public List<User> users(){
+    public List<User> users() {
         return userRepository.finaAll();
     }
 
