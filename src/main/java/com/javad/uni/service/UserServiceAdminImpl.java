@@ -1,6 +1,5 @@
 package com.javad.uni.service;
 
-
 import com.javad.uni.model.User;
 import org.springframework.stereotype.Service;
 import java.util.List;
