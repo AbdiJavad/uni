@@ -19,7 +19,7 @@ public class UserServiceAdminImpl implements UserService {
     public User save(User user) {
         return null;
     }
-
+    
     @Override
     public User update(Long id, User user) {
         Optional<User>userData =userRepository.findById(id);
@@ -42,7 +42,7 @@ public class UserServiceAdminImpl implements UserService {
 
     @Override
     public List<User> users() {
-        
+
         return null;
     }
 
