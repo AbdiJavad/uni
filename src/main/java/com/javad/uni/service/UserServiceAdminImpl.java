@@ -42,7 +42,7 @@ public class UserServiceAdminImpl implements UserService {
 
     @Override
     public List<User> users() {
-        List
+        
         return null;
     }
 
