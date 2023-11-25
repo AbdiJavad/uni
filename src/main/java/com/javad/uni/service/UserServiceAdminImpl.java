@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 
+
 @Service
 public class UserServiceAdminImpl implements UserService {
 
@@ -19,7 +20,7 @@ public class UserServiceAdminImpl implements UserService {
     public User save(User user) {
         return null;
     }
-    
+
     @Override
     public User update(Long id, User user) {
         Optional<User>userData =userRepository.findById(id);
