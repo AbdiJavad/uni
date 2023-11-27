@@ -10,6 +10,7 @@ import javax.persistence.*;
 @Builder(toBuilder = true)
 @Data
 @AllArgsConstructor
+
 public class User {
 
     @Id
