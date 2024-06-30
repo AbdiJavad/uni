@@ -16,11 +16,12 @@ import java.util.Optional;
 @RequestMapping("user")
 
 public class UserController {
+    
     @Autowired
     @Qualifier("userServiceImpl")
     private UserService userService;
     private UserRepository userRepository;
-    
+
     @GetMapping
     public List<User> users() {
         return userRepository.finaAll();
