@@ -25,7 +25,6 @@ public class UserController {
     public List<User> users() {
         return userRepository.finaAll();
     }
-
     public User update(Long id, User user) {
         return userService.update(id, user);
     }
