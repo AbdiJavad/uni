@@ -21,7 +21,6 @@ public class UserController {
     @Qualifier("userServiceImpl")
     private UserService userService;
     private UserRepository userRepository;
-
     @GetMapping
     public List<User> users() {
         return userRepository.finaAll();
